@@ -1,0 +1,46 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "A starter for node typescript projects",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "lint": "eslint ./src/**/*.ts && manypkg check",
+    "lint:fix": "eslint --fix ./src/**/*.ts && manypkg fix"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "starter"
+  ],
+  "author": "Christian Emmert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianemmert/ts-starter.git"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@7.29.0",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.20.0",
+    "@types/eslint": "^8.21.1",
+    "@types/node": "^18.14.6",
+    "@types/prettier": "^2.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-isaacscript": "^2.6.7",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
