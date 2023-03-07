@@ -25,14 +25,15 @@ npm i pnpm -g
 
 ```
 git clone https://github.com/christianemmert/ts-starter.git
+
 pnpm install
 ```
 
 ## Scripts
 
 - `start`: runs `./src/index.ts` via `ts-node`
-- `lint`: runs `eslint`, and `manypkg`
-- `lint:fix`: runs, and fixes `eslint`, and `manypkg`
+- `lint`: runs `eslint`
+- `lint:fix`: runs, and fixes `eslint`
 
 ## Resources
 
