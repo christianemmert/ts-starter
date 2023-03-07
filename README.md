@@ -10,12 +10,12 @@
 
 ## About
 
-The purpose of this repo to provide a good point to start a new typescript project from.
-It includes packages and rules that are already set up in order to save time.
+The purpose of this repository is to provide a good starting point for a new typescript project.
+It includes packages and has set up ts and linting rules, considered good practice.
 
 ## Prerequisites
 
-This projet utilizes the `pnpm` as the package manager. If you haven't installed it already install it via:
+This project utilizes `pnpm` as the package manager. If you haven't installed it already install it via:
 
 ```
 npm i pnpm -g
@@ -31,9 +31,9 @@ pnpm install
 
 ## Scripts
 
-- `start`: runs `./src/index.ts` via `ts-node`
-- `lint`: runs `eslint`
-- `lint:fix`: runs, and fixes `eslint`
+- `start` - Runs `./src/index.ts` via `ts-node`
+- `lint` - Runs `eslint`
+- `lint:fix` - Runs, and fixes `eslint`
 
 ## Resources
 
