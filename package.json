@@ -4,8 +4,8 @@
   "description": "A starter for node typescript projects",
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "lint": "eslint ./src/**/*.ts && manypkg check",
-    "lint:fix": "eslint --fix ./src/**/*.ts && manypkg fix"
+    "lint": "eslint ./src/**/*.ts",
+    "lint:fix": "eslint --fix ./src/**/*.ts"
   },
   "keywords": [
     "typescript",
@@ -22,8 +22,7 @@
   "engines": {
     "node": ">=14.16"
   },
-  "dependencies": {
-    "@manypkg/cli": "^0.20.0",
+  "devDependencies": {
     "@types/eslint": "^8.21.1",
     "@types/node": "^18.14.6",
     "@types/prettier": "^2.7.2",
