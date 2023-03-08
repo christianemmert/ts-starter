@@ -2,11 +2,12 @@
 const config = {
   root: true,
   parser: "@typescript-eslint/parser",
-  plugins: ["isaacscript", "import"],
+  plugins: ["isaacscript", "import", "vitest"],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:prettier/recommended",
+    "plugin:vitest/recommended",
   ],
   parserOptions: {
     ecmaVersion: "latest",
