@@ -1,4 +1,4 @@
-# Typescript node.js starter
+# Typescript starter
 
 ## Table of contents
 
