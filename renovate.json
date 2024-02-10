@@ -9,14 +9,14 @@
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
-      "autoMerge": true
+      "automerge": true
     },
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["major"],
       "groupName": "all major dependencies",
       "groupSlug": "all-major",
-      "autoMerge": true
+      "automerge": true
     }
   ]
 }
